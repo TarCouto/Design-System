@@ -1,0 +1,3 @@
+{
+  "extends": "@design_system/eslint-config"
+}
