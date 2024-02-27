@@ -22,7 +22,16 @@ module.exports = {
 
   docs: {
     autodocs: true
+  },
+
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/Design-System/'
+    }
+
+    return config
   }
+  
 }
 
 function getAbsolutePath(value) {
