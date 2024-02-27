@@ -1,6 +1,6 @@
 
 > @design_system/react@1.0.0 build
-> tsup src/index.tsx --format esm,cjs --dts
+> tsup src/index.tsx --format esm,cjs --dts --external react
 
 [34mCLI[39m Building entry: src/index.tsx
 [34mCLI[39m Using tsconfig: tsconfig.json
@@ -8,15 +8,45 @@
 [34mCLI[39m Target: es6
 [34mESM[39m Build start
 [34mCJS[39m Build start
-[32mESM[39m [1mdist\index.mjs [22m[32m2.79 KB[39m
-[32mESM[39m ⚡️ Build success in 61ms
-[32mCJS[39m [1mdist\index.js [22m[32m3.70 KB[39m
-[32mCJS[39m ⚡️ Build success in 61ms
+[32mESM[39m [1mdist\index.mjs [22m[32m11.10 KB[39m
+[32mESM[39m ⚡️ Build success in 83ms
+[32mCJS[39m [1mdist\index.js [22m[32m13.18 KB[39m
+[32mCJS[39m ⚡️ Build success in 83ms
 [34mDTS[39m Build start
 ../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
 
 ../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
 
-[32mDTS[39m ⚡️ Build success in 1924ms
-[32mDTS[39m [1mdist\index.d.mts [22m[32m5.50 KB[39m
-[32mDTS[39m [1mdist\index.d.ts  [22m[32m5.50 KB[39m
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+../ts-config/react.json(4,7): error TS5023: Unknown compiler option 'tsx'.
+
+[32mDTS[39m ⚡️ Build success in 4162ms
+[32mDTS[39m [1mdist\index.d.mts [22m[32m43.76 KB[39m
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m43.76 KB[39m
