@@ -1,4 +1,4 @@
-import User from 'phosphor-react/dist/icons/User'
+import { User } from 'phosphor-react'
 import { AvatarContainer, AvatarImage, AvatarFallback } from './Styles'
 import { ComponentProps } from '@stitches/react'
 
@@ -15,3 +15,4 @@ export function Avatar(props: AvatarProps) {
     </AvatarContainer>
   )
 }
+Avatar.displayName = 'Avatar'
