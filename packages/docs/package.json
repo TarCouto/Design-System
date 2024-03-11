@@ -1,5 +1,5 @@
 {
-  "name": "@design_system/docs",
+  "name": "@design-system-tarcouto/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -39,10 +39,10 @@
     "vite": "^5.0.12"
   },
   "dependencies": {
-    "@design_system/eslint-config": "*",
-    "@design_system/react": "*",
-    "@design_system/tokens": "*",
-    "@design_system/ts-config": "*",
+    "@design-system-tarcouto/eslint-config": "*",
+    "@design-system-tarcouto/react": "*",
+    "@design-system-tarcouto/tokens": "*",
+    "@design-system-tarcouto/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -1,5 +1,5 @@
 {
-    "extends": "@design_system/ts-config/base.json",
+    "extends": "@design-system-tarcouto/ts-config/base.json",
     "include": ["src"]
 }
 

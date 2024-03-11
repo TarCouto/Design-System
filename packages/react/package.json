@@ -1,6 +1,6 @@
 {
-  "name": "@design_system/react",
-  "version": "1.0.0",
+  "name": "@design-system-tarcouto/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@design_system/eslint-config": "*",
-    "@design_system/tokens": "*",
-    "@design_system/ts-config": "*",
+    "@design-system-tarcouto/eslint-config": "*",
+    "@design-system-tarcouto/tokens": "*",
+    "@design-system-tarcouto/ts-config": "*",
     "@types/react": "^18.2.58",
     "@types/react-dom": "^18.2.18",
     "react": "^18.2.0",

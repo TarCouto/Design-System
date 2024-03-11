@@ -4,7 +4,7 @@ import {
   Text,
   Checkbox,
   CheckboxProps,
-} from '@design_system/react/src/index'
+} from '@design-system-tarcouto/react/src/index'
 
 export default {
   title: 'Form/Checkbox',

@@ -1,6 +1,7 @@
 {
-  "name": "@design_system/eslint-config",
+  "name": "@design-system-tarcouto/eslint-config",
   "license": "MIT",
+  "version": "2.0.0",
   "private": true,
   "main": "index.js",
   "devDependencies": {

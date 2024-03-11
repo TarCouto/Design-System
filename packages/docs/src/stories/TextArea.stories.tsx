@@ -4,7 +4,7 @@ import {
   Text,
   TextArea,
   TextAreaProps,
-} from '@design_system/react/src/index'
+} from '@design-system-tarcouto/react/src/index'
 
 export default {
   title: 'Form/Text Area',

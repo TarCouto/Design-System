@@ -1,6 +1,6 @@
 {
-  "name": "@design_system/tokens",
-  "version": "1.0.0",
+  "name": "@design-system-tarcouto/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@design_system/ts-config": "*",
-    "@design_system/eslint-config": "*",
+    "@design-system-tarcouto/ts-config": "*",
+    "@design-system-tarcouto/eslint-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }

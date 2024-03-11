@@ -1,4 +1,4 @@
-import { colors } from '@design_system/tokens'
+import { colors } from '@design-system-tarcouto/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

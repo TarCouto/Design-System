@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@design_system/react/src/index'
+import { Avatar, AvatarProps } from '@design-system-tarcouto/react/src/index'
 
 export default {
   title: 'Data display/Avatar',

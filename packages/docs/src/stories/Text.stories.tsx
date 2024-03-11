@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@design_system/react/src/index'
+import { Text, TextProps } from '@design-system-tarcouto/react/src/index'
 
 export default {
   title: 'Typography/Text',

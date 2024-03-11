@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@design_system/react'
+import { Box, BoxProps, Text } from '@design-system-tarcouto/react'
 
 export default {
   title: 'Surfaces/Box',

@@ -6,7 +6,7 @@ import {
     lineHeights,
     radii,
     space,
-  } from '@design_system/tokens'
+  } from '@design-system-tarcouto/tokens'
   import { createStitches, defaultThemeMap } from '@stitches/react'
   
   export const {
