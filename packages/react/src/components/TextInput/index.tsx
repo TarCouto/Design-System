@@ -1,16 +1,17 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, forwardRef, ElementRef } from 'react'
 import { Input, Prefix, TextInputContainer } from './Styles'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
 }
 
-export function TextInput({ prefix, ...props }: TextInputProps) {
-  return (
+export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
+  ({ prefix, ...props }: TextInputProps, ref) => (
     <TextInputContainer>
       {!!prefix && <Prefix>{prefix}</Prefix>}
-      <Input {...props} />
+      <Input ref={ref} {...props} />
     </TextInputContainer>
-  )
-}
+  ),
+)
+
 TextInput.displayName = 'TextInput'
